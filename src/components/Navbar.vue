@@ -20,9 +20,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    
+    height: 100vh;
     width: 70px;
-    position: fixed;
+    position: sticky;
+    box-sizing: border-box;
+
     background-color: #1f1f1f;
     font-size: 30px;
     border-right: 1px solid #04da83;
@@ -41,14 +44,6 @@
       &:hover {
         color: #fff;
       }
-    }
-
-    .icon {
-      margin-top: 2rem;
-    }
-
-    .profile {
-      margin-bottom: 2rem;
     }
   }
 </style>
