@@ -35,6 +35,10 @@
 
     .link {
       color: #04da83;
+
+      &:hover {
+        color: #fff;
+      }
     }
 
     .icon {
