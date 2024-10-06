@@ -13,6 +13,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Saude Mental Chan',
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },
+      ]
     }
   }
 });

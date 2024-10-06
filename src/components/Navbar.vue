@@ -5,15 +5,15 @@
       </div>
       <div class="links">
         <router-link class="link" to="/search"><Icon name='material-symbols:search'/></router-link>
-        <router-link class="link" to="/"><Icon name='material-symbols:home'/></router-link>
+        <router-link class="link" to="/boards"><Icon name='material-symbols:menu'/></router-link>
         <router-link class="link" to="/notifications"><Icon name='material-symbols:notifications'/></router-link>
       </div>
       <div class="profile">
         <router-link class="link" to="/profile"><Icon name='material-symbols:person'/></router-link>
       </div>
     </div>
-  </template>
-  
+</template>
+
 <style>
   .navbar {
     display: flex;
@@ -25,6 +25,8 @@
     position: fixed;
     background-color: #1f1f1f;
     font-size: 30px;
+    border-right: 1px solid #04da83;
+    padding: 1rem 0;
 
     .links {
       display: flex;
@@ -46,7 +48,7 @@
     }
 
     .profile {
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
   }
 </style>
