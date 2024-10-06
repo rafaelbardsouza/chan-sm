@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <Header />
+    <Navbar />
   </div>
 </template>
 
 <script>
-  import Header from './src/components/Header.vue'
+  import Navbar from './src/components/Navbar.vue'
 
   export default {
     components: {
-      Header
+      Navbar
     }
   }
 </script>
